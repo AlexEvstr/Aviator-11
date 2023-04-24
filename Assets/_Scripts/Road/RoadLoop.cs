@@ -10,7 +10,7 @@ namespace Evstr.Road
         {
             if (transform.position.y < -11.0f)
             {
-                transform.position = new Vector2(0, 13.4f);
+                transform.position = new Vector2(0, 11.0f);
             }
         }
     }
