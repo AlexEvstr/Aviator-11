@@ -1259,6 +1259,7 @@ GameObject:
   - component: {fileID: 1933580563}
   - component: {fileID: 1933580562}
   - component: {fileID: 1933580564}
+  - component: {fileID: 1933580565}
   m_Layer: 0
   m_Name: SpawnManager
   m_TagString: Untagged
@@ -1307,6 +1308,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _fog: {fileID: 995437524792703445, guid: b7ff0df8763a04d3aa08d5cbe5f42fe0, type: 3}
+--- !u!114 &1933580565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933580561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31fbebf9389dc40ac90be3afa075fa36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _coin: {fileID: 6781933352778314313, guid: 0889ad30df0fd410daf4ad5879ffba20, type: 3}
 --- !u!1 &2026611063
 GameObject:
   m_ObjectHideFlags: 0
