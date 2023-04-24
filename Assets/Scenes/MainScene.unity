@@ -382,6 +382,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gameOverPanel: {fileID: 901422483}
+  _plus15: {fileID: 2988400621093983374, guid: 17ba1d40b308749378b39770c501d97b, type: 3}
 --- !u!50 &403181563
 Rigidbody2D:
   serializedVersion: 4

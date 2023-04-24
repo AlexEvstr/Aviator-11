@@ -8,6 +8,7 @@ namespace Evstr.Plane
     public class PlaneDetector : MonoBehaviour
     {
         [SerializeField] private GameObject _gameOverPanel;
+        [SerializeField] private GameObject _plus15;
 
         private void OnTriggerEnter2D(Collider2D collision)
         {
@@ -26,6 +27,7 @@ namespace Evstr.Plane
             {
                 ScoreIncrease.score += 15;
                 Destroy(collision.gameObject);
+                Instantiate(_plus15);
             }
         }
     }
